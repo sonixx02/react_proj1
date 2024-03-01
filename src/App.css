@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media screen and (max-width: 768px) {
+  .py-20 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .text-7xl {
+    font-size: 4rem;
+  }
+
+  .leading-none {
+    line-height: 1;
+  }
+
+  .w-15vw {
+    width: 50vw;
+  }
+
+  .h-15vw {
+    height: 50vw;
+  }
+
+  .text-4vw {
+    font-size: 3vw;
+  }
+
+  .leading-4.5vw {
+    line-height: 4.5vw;
+  }
+
+  .text-[17vw] {
+    font-size: 8vw;
+  }
+
+  .w-2/3 {
+    width: 60%;
+  }
+
+  .h-2/3 {
+    height: 60%;
+  }
+
+  .w-[15vw] {
+    width: 50vw;
+  }
+
+  .h-[80vh] {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marquee h1 {
+    font-size: 5vw;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .about h1 {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  .about .w-1/2 {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .eyes .top-1/2 {
+    top: 50%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .featured .cardcontainer {
+    width: 100%;
+  }
+}
